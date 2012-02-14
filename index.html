@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Isochrone map</title>
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<!--[if !IE 7]>
+			<style type="text/css">
+				#wrap {display:table;height:100%}
+			</style>
+		<![endif]-->
+		
+		<link rel="stylesheet" media="all" href="style.css"/>
+		
+		<!-- Leaflet CSS --> 
+		<link rel="stylesheet" href="leaflet/dist/leaflet.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="<path_to_dist>/leaflet.ie.css" /><![endif]-->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+		
+		<!-- Leaflet JavaScript -->
+		<script src="leaflet/dist/leaflet.js"></script>
+	</head>
+	
+	<body lang="en">
+		<div id="map"></div> <!-- width equals available horizontal space by default -->
+		
+		<script src="drawmap.js"></script>
+		
+	</body>
+	
+</html>
